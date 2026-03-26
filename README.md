@@ -498,6 +498,12 @@ public static class Prompt_ScriptingCode
 
 Use **[Unity MCP](https://github.com/IvanMurzak/Unity-MCP)** in your game/app. Use Tools, Resources or Prompts. By default there are no tools, you would need to implement your custom.
 
+Runtime features are optional. Install runtime add-on package first:
+
+```bash
+openupm add com.ivanmurzak.unity.mcp.runtime
+```
+
 ```csharp
 // Build MCP plugin
 var mcpPlugin = UnityMcpPluginRuntime.Initialize(builder =>

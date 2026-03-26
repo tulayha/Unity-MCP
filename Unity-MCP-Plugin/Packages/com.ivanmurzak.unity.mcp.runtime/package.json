@@ -1,0 +1,17 @@
+{
+    "name": "com.ivanmurzak.unity.mcp.runtime",
+    "displayName": "AI Game Developer — MCP Runtime",
+    "author": {
+        "name": "Ivan Murzak",
+        "url": "https://github.com/IvanMurzak"
+    },
+    "keywords": [
+        "AI",
+        "MCP",
+        "Unity MCP",
+        "Runtime"
+    ],
+    "version": "0.61.0",
+    "unity": "2022.3",
+    "description": "Optional runtime module toggle for Unity MCP. Installing this package enables runtime assemblies and runtime plugin dependencies in player builds via UNITY_MCP_RUNTIME."
+}
