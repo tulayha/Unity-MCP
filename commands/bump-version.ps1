@@ -62,6 +62,12 @@ $VersionFiles = @(
         Description = "Unity package version"
     },
     @{
+        Path        = "Unity-MCP-Plugin/Packages/com.ivanmurzak.unity.mcp.runtime/package.json"
+        Pattern     = '"version":\s*"[\d\.]+"'
+        Replace     = '"version": "{VERSION}"'
+        Description = "Runtime add-on package version"
+    },
+    @{
         Path        = "Unity-MCP-Plugin/Assets/root/Runtime/UnityMcpPlugin.cs"
         Pattern     = 'public const string Version = "[\d\.]+";'
         Replace     = 'public const string Version = "{VERSION}";'
